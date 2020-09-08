@@ -1,0 +1,100 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Century Gothic;
+	
+}
+body{
+	 background: linear-gradient(to top right, #990000 0%, #00ff00 100%);
+	 height: 100vh;
+	 width: 100%;
+}
+
+ul{
+	list-style-type: none;
+	float: right;
+	margin: 25px;
+}
+ ul li{
+	display: inline-block;
+}
+ul li a{
+	height: 15vh;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px;
+	border: 1.9px solid white;
+	transition: 1s;
+	margin-right: 10px;
+	font-size: 20px;
+	border-radius: 15px;
+	font-weight: 700;
+}
+
+ul li a:hover{
+	background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+	color: #000;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+ul li.active a{
+	background: none;
+	color: 	#006400;
+	border: none;
+}
+ul li.active a:hover{
+	color: #FFD700;
+	border-top: 4px solid #FF4500;
+	border-right: 4px solid #FF4500;
+	border-left: 4px solid #FF4500;
+}
+
+.hoina{
+	position: absolute;
+	top: 20%;
+	left: 15%;
+	text-align: center;
+}
+.hoina p{
+	margin: 5px 0 5px 0;
+	background-repeat: no-repeat;
+}
+.hoina p a{
+	list-style-type: none;
+	text-decoration: none;
+	color: #fff;
+	padding: 8px ;
+	border:  0.5px solid white;
+	transition: 1s;
+	font-size: 20px;
+	border-radius: 15px;
+	font-weight: 700;
+	transition: 0.5s;
+	background: none;
+	display: block;
+}
+.hoina p:hover{
+	text-shadow: 5px 3px 5px black;
+	border: none;
+}
+.hoina p a:hover{
+	border: none;
+	border-bottom: 3px solid coral;
+}
+/*search-bar*/
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 30%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-top: 12px; /* Add some space below the input */
+  margin-left: 12px;
+  display: block;
+}
+
